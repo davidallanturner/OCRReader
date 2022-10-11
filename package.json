@@ -1,0 +1,22 @@
+{
+  "name": "ocreader",
+  "version": "1.0.0",
+  "description": "Will OCR pictures and put them into a DB for easy retreival",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OCR",
+    "Pictures",
+    "divorce"
+  ],
+  "author": "David 'f0ru0l0rd' Turner",
+  "license": "ISC",
+  "dependencies": {
+    "image-size": "^1.0.2",
+    "mongodb": "^4.10.0",
+    "pdfkit": "^0.13.0",
+    "tesseract.js": "^3.0.3"
+  }
+}
